@@ -473,4 +473,13 @@ body {
     margin: auto;
     tex-color:white;
   }
-  
+  .languages {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.8;
+  }
+  .languages li {
+    margin-bottom: 4px;
+  }
