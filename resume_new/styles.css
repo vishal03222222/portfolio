@@ -33,7 +33,7 @@ body {
   .nav-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+   // justify-content: space-between;
     max-width: 1200px;
     margin: auto;
     padding: 0 2rem;
