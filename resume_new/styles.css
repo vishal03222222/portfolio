@@ -443,7 +443,7 @@ body {
   }
   .skills-section {
   padding: 40px 20px;
-  border-top: 2px solid #000;
+ 
   font-family: Arial, sans-serif;
   text:white;
 }
@@ -501,10 +501,12 @@ body {
     color: #1a1a1a;
     border: 1px solid #e0ecff;
   }
+ 
   
   .card:hover {
-    background: #e6f0ff;
+    background:rgb(120, 169, 242);
     transform: translateY(-6px);
+    text-color:white
   }
   .card animate visible{
     color:black
