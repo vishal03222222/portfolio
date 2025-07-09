@@ -538,16 +538,6 @@ body {
     display: block;
   }
 
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    margin-top: 10px;
-  }
-
-  .nav-links a {
-    margin: 8px 0;
-    font-size: 18px;
-  }
 .skills-section {
     padding: 40px 20px;
    
@@ -586,4 +576,36 @@ body {
       margin-left:150px
       padding: 50px 20px;
     }
+    .navbar {
+      margin-left: 20px;
+      flex-direction: column;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+
+    .nav-links {
+      display: none;
+      flex-direction: column;
+      margin-top: 10px;
+      
+    }
+
+    .nav-links a {
+      margin: 8px 0;
+      font-size: 18px;
+    }
+    .nav-links a {
+      margin-right: 15px;
+      text-decoration: none;
+      color: black;
+      font-size: 16px;
+    }
+  
+  }
+  
+  /* Tablet & Mobile View */
+  @media (max-width: 1024px) {
+   
   }
