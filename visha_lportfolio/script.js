@@ -6,7 +6,10 @@ const observer = new IntersectionObserver((entries) => {
       }
     });
   });
-  
+  function toggleMenu() {
+    const navLinks = document.getElementById("navLinks");
+    navLinks.style.display = navLinks.style.display === "block" ? "none" : "block";
+  }
 
   document.querySelectorAll('.animate').forEach(el => observer.observe(el));
   

@@ -13,34 +13,39 @@
     <div class="container nav-container">
       <a href="https://github.com/vishal03222222"><img src="gitub.svg" alt=""></a><span style="color: black;">GitHub</span>
   <a href="https://www.linkedin.com/in/m-g-vishal-462b4223a/" ><img src="linkdiin.png" alt="" style="object-fit: fill;width:min-content;margin-left:20px"></a><span style="color: black;">Linkdin</span>
-      <nav class="navbar" style="margin-left: 100px;">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#portfolio">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#certifications">Certifications</a>
-        <a href="#contact">Contact</a>
-        <a href="vishal_resume_2025.pdf" target="_blank"
-        style="
-          display: inline-block;
-          padding: 10px 20px;
-          background-color: #007BFF;
-          color: white;
-          text-decoration: none;
-          border-radius: 5px;
-          font-family: Arial, sans-serif;
-          font-size: 16px;
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-          transition: background-color 0.3s ease;
-        "
-        onmouseover="this.style.backgroundColor='#0056b3'"
-        onmouseout="this.style.backgroundColor='#007BFF'"
-     >
-       📄 Download Resume
-     </a>
-     </nav>
-     
+  <nav class="navbar " style="margin-left: 100px; font-family: Arial, sans-serif;">
+    <div class="menu-toggle" onclick="toggleMenu()" style="display: none; font-size: 30px; cursor: pointer;">☰</div>
+  
+    <div class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </div>
+  
+    <a href="vishal_resume_2025.pdf" target="_blank"
+      style="
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007BFF;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        margin-top: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        transition: background-color 0.3s ease;
+      "
+      onmouseover="this.style.backgroundColor='#0056b3'"
+      onmouseout="this.style.backgroundColor='#007BFF'"
+    >
+      📄 Download Resume
+    </a>
+  </nav>
+  
     </div>
   </header>
   <header class="hero">
@@ -80,7 +85,7 @@
 <b> <hr style="border-color: rgb(250, 247, 247);margin:100px;"></b>
 
   <section class="skills-section" id="skills">
-   <b> <h2 class="section-title">Skills</h2></b>
+   <u><b> <h2 class="section-title">Skills:</h2></b></u>
     <div class="skills-content" style="text-decoration-color: rgb(14, 8, 0);">
       
       <p class="card animate"><strong>Programming:</strong> Python, Java, JavaScript, Node.js</p>
