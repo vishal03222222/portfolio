@@ -12,7 +12,7 @@ body {
   .container {
     max-width: 1100px;
     margin: auto;
-    padding: 50px 20px;
+    padding: 60px 20px;
   }
   
   .hero {
@@ -54,7 +54,7 @@ body {
     gap: 1.5rem;
     align-items: center;
     flex-wrap: wrap;
-    height:100px
+   
   }
   
   .navbar a {
@@ -74,7 +74,7 @@ body {
     display: inline-block;
     padding: 10px 15px;
     margin: 5px;
-    background-color:rgb(25, 98, 141);
+    background-color:rgb(25, 153, 228);
     color:rgb(255, 252, 252);
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -84,7 +84,7 @@ body {
   }
   
   nav a:hover {
-    background-color:rgb(132, 131, 97);
+    background-color:rgb(95, 169, 192);
     color: white;
   }
   .item animate{
@@ -118,23 +118,10 @@ body {
   .hire-btn:hover {
     background-color: #005bb5;
   }
-  
-  @media (max-width: 768px) {
-    .nav-container {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 1rem;
-    }
-  
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .hire-btn {
-      align-self: flex-end;
-    }
+  .toogle{
+    display:none
   }
+  
   
   .hero .profile-pic {
     width: 130px;
@@ -172,6 +159,8 @@ body {
   .section-title {
     font-size: 2rem;
     margin-bottom: 20px;
+    margin-top:50px;
+
    
     color:rgb(245, 245, 245);
   }
@@ -312,15 +301,41 @@ body {
     color: #0077ff;
     margin-bottom: 0.75rem;
   }
-  
+  .about{
+    padding:50px 20px;
+    margin-top:30px
+  }
   .about-text p {
     line-height: 1.6;
     color: #333;
     font-size: 1rem;
   }
-  
+  #navLinks{
+    display:none;
+  }
   @media (max-width: 768px) {
+
+    .nav-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+  
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .hire-btn {
+      align-self: flex-end;
+    }
+     
+    .about{
+      padding:160px 30px;
+      margin-top:50px
+    }
     .hero-flex {
+      
       flex-direction: column;
       align-items: center;
       text-align: center;
@@ -524,10 +539,17 @@ body {
    display:none; 
   }
   
- 
+ .navLinks2{
+  display:none
+ }
   
 
   @media (max-width:765px){
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 160px 20px;
+    }
     .header img{
       margin:0px
     }
@@ -558,7 +580,7 @@ body {
   .navbar {
     margin-left: 20px;
     flex-direction: column;
-    display:table-footer-group
+    display:unset
   }
 
   .menu-toggle {
@@ -566,7 +588,7 @@ body {
   }
 
 .skills-section {
-    padding: 40px 20px;
+    padding: 170px 20px;
    
     font-family: Arial, sans-serif;
     text:white;
