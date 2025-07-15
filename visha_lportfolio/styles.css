@@ -678,7 +678,10 @@ body {
 
      .skills-section {
     max-width: 400px;
-   margin:unset
+    margin:unset;
     tex-color: white;
+}
+.about h2{
+  margin:unset
 }
   }
