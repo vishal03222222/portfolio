@@ -290,7 +290,8 @@ body {
  
   
   .about-text {
-    margin-left: 200px;margin-right:200px;
+    margin-left: 200px;
+    margin-right:200px;
     background: #f9f9ff;
     padding: 1.5rem;
     border-radius: 12px;
@@ -314,7 +315,20 @@ body {
   #navLinks{
     display:none;
   }
+  .aboutead{
+    margin-left:150px  }
+  @media (mix-width :400px){
+    .about-text {
+   
+      margin-right: 100px;
+      background: #f9f9ff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  }
   @media (max-width: 768px) {
+
 
     .nav-container {
       flex-direction: column;
@@ -471,8 +485,9 @@ body {
     }
   }
   .skills-section {
-  padding: 40px 20px;
- 
+
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   font-family: Arial, sans-serif;
   text:white;
 }
@@ -661,7 +676,31 @@ body {
       color: black;
       font-size: 16px;
     }
-  
+    .skills-section {
+      max-width: 400px;
+      margin-left: 10px;
+      tex-color: white;
+  }
+  .aboutead{
+    margin-left:10px;
+  }
+    .about-text {
+      background: #f9f9ff;
+      padding: 1.5rem;
+      width:300px;
+      margin-left:unset;
+      margin-rigt:
+      border-radius: 12px;
+      padding:30px
+      
+      text-align:unset;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+  .aboutead{
+    margin-left:100px;
+
+
+  }
   }
   
   /* Tablet & Mobile View */
@@ -670,7 +709,7 @@ body {
   .about-text {
     background: #f9f9ff;
     padding: 1.5rem;
-    width:250px;
+    width:200px;
     margin-left:0px;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
@@ -684,4 +723,8 @@ body {
 .about h2{
   margin:unset
 }
+    .container {
+        
+     padding: 160px 20px; 
+    }
   }
