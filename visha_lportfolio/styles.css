@@ -290,6 +290,7 @@ body {
  
   
   .about-text {
+    margin-left: 200px;margin-right:200px;
     background: #f9f9ff;
     padding: 1.5rem;
     border-radius: 12px;
@@ -664,6 +665,20 @@ body {
   }
   
   /* Tablet & Mobile View */
-  @media (max-width: 1024px) {
-   
+  @media (max-width: 375px) {
+     
+  .about-text {
+    background: #f9f9ff;
+    padding: 1.5rem;
+    width:250px;
+    margin-left:0px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+     .skills-section {
+    max-width: 400px;
+   margin:unset
+    tex-color: white;
+}
   }
